@@ -3,7 +3,7 @@ name: CI
 on: [ push, pull_request, workflow_dispatch ]
 
 env:
-  BINARY_PREFIX: "go-pixiv-proxy_"
+  BINARY_PREFIX: "gocron"
   BINARY_SUFFIX: ""
   COMMIT_ID: "${{ github.sha }}"
   PR_PROMPT: "::warning:: Build artifact will not be uploaded due to the workflow is trigged by pull request."
